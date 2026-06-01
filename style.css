@@ -61,6 +61,23 @@ main {
     font-family: "Karla", sans-serif;
 }
 
+.downloadBtn {
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    min-height: 40px;
+    font-family: "Karla", sans-serif;
+    margin-top: 17px;
+    width: 100%;
+    transition: opacity 0.2s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
 .meme {
     position: relative;
     display: flex;
